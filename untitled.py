@@ -73,7 +73,20 @@ print()
 ft=b"ft"
 print(ft)
 print(type(ft))
+print()
 
 ft=bytearray(10)
 print(ft)
 print(type(ft))
+print()
+
+
+ft = memoryview(bytes(15))
+print(ft)
+print(type(ft))
+print()
+
+ft=None
+print(ft)
+print(type(ft))
+print()
